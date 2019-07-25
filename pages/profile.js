@@ -1,0 +1,1 @@
+export default () => <p>this is profile</p>

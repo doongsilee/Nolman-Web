@@ -3,16 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-
   "dependencies": {
+    "@material-ui/core": "^3.5.1",
+    "@material-ui/icons": "latest",
+    "classnames": "^2.2.6",
+    "google-map-react": "^1.1.1",
+    "jss": "latest",
     "next": "^7.0.2",
+    "prop-types": "latest",
     "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "react-dom": "^16.6.3",
+    "react-jss": "latest"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next",
+    "dev": "next -p 3001",
     "build": "next build",
     "start": "next start"
   },
